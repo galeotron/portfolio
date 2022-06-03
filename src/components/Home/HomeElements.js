@@ -14,10 +14,15 @@ export const HomeContainer = styled.div`
   align-items: center;
   flex-direction: column;
   /* padding-top: 10vh; */
-  overflow-x: hidden;
+  overflow: hidden;
 
   background-color: #0f0f0f;
-  padding: 15px;
+  /* padding: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 
 `;
 
@@ -99,6 +104,7 @@ export const HomeProjectContainer2 = styled.div`
   border: 2px solid orange;
   padding-top: 1vh;
   padding-bottom: 10vh;
+  border-radius: 10px;
   /* margin-top: 20px; */
   /* margin-bottom: 20px; */
   height: 100vh;
@@ -107,6 +113,10 @@ export const HomeProjectContainer2 = styled.div`
   grid-template-columns: repeat(4 1fr);
   grid-template-rows: repeat() (5 1fr);
   grid-gap: 30px;
+  min-height: 650px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #1a1a1a;
 
   @media screen and (max-width: 1000px) {
     width: 100vw;
@@ -123,6 +133,7 @@ export const HomeProjectContainer3 = styled.div`
   border: 2px solid orange;
   padding-top: 1vh;
   padding-bottom: 10vh;
+  border-radius: 10px;
   /* margin-top: 20px; */
   /* margin-bottom: 20px; */
   height: 100vh;
@@ -131,6 +142,11 @@ export const HomeProjectContainer3 = styled.div`
   grid-template-columns: repeat(4 1fr);
   grid-template-rows: repeat() (5 1fr);
   grid-gap: 30px;
+  min-height: 650px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #1a1a1a;
+
 
   @media screen and (max-width: 1000px) {
     width: 100vw;
@@ -161,6 +177,8 @@ export const ProjectTextWrap = styled.div`
     align-self: center;
   }
 `;
+
+
 
 export const ProjectText = styled(motion.h2)``;
 
@@ -284,3 +302,15 @@ export const Gap = styled.div`
   border: 2px solid purple;
   height: 40px;
 `;
+
+export const FooterContainer = styled.div`
+  width: 100vw;
+  height: 175px;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  border-radius: 10px;
+
+  @media screen and (max-width: 500px) {
+    height: 80px;
+
+  }
+`
