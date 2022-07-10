@@ -3,15 +3,16 @@ import React from "react";
 import SantaScreenshot from "../../images/SantaHomepageSquare.png";
 import SantaLogo from "../../images/SantaLogo.PNG";
 import SantaMobile from "../../images/SantaMobile.png";
-import stars from "../../images/stars.jpg";
+import CopperLogo from "../../images/CopperLogo.png";
+import NFTScreen from "../../images/NFTscreen.png"
+// import stars from "../../images/stars.jpg";
 import {
   Gap,
   /*BgVideoStyle,*/
   HomeContainer,
   HomeLgText,
   HomeProjectContainer,
-  HomeProjectContainer2,
-  HomeProjectContainer3,
+
   HomeScreenshot,
   HomeScreenshotWrap,
   HomeSmText,
@@ -30,9 +31,67 @@ import {
   WebsiteLinkWrap,
   SkillTag,
   WebsiteLink,
-  BgImage,
   FooterContainer,
 } from "./HomeElements";
+
+import {
+
+  HomeProjectContainer2Second,
+
+  HomeScreenshotSecond,
+  HomeScreenshotWrapSecond,
+
+  HomeWrapperSecond,
+  LogoPicSecond,
+  LogoWrapSecond,
+  ProjectTextSecond,
+  ProjectTextWrapSecond,
+  SecondScreenshotSecond,
+  SecondScreenshotWrapSecond,
+  SkillTagTextSecond,
+  SkillTagWrapSecond,
+
+  WebsiteLinkWrapSecond,
+  SkillTagSecond,
+  WebsiteLinkSecond,
+
+} from "./HomeElementsSecond";
+
+import {
+
+
+  HomeProjectContainer3Third,
+  HomeScreenshotThird,
+  HomeScreenshotWrapThird,
+
+  HomeWrapperThird,
+  LogoPicThird,
+  LogoWrapThird,
+  ProjectTextThird,
+  ProjectTextWrapThird,
+  SecondScreenshotThird,
+  SecondScreenshotWrapThird,
+  SkillTagTextThird,
+  SkillTagWrapThird,
+  /*VideoWrapper,*/
+  WebsiteLinkWrapThird,
+  SkillTagThird,
+  WebsiteLinkThird,
+
+} from "./HomeElementsThird";
+
+import {
+  HomeWrapperFinal,
+  HomeProjectContainer3Final,
+  HomeProjectFinalTextHeaderContainer,
+  HomeFinalTextHeaderWrapper,
+  HomeFinalTextWrapper,
+  HomeFinalTextHeader,
+  HomeFinalBoldTextWrapper,
+  HomeFinalBoldText,
+  HomeFinalText,
+  FinalTextContainer
+} from "./HomeElementsFinal";
 
 const Home = () => {
   return (
@@ -167,236 +226,261 @@ const Home = () => {
           </WebsiteLinkWrap>
         </HomeProjectContainer>
       </HomeWrapper>
-      <HomeWrapper>
-        <HomeProjectContainer2>
-          <ProjectTextWrap>
-            <ProjectText
+      <HomeWrapperSecond>
+        <HomeProjectContainer2Second>
+          <ProjectTextWrapSecond>
+            <ProjectTextSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              Santa Slayzz
-            </ProjectText>
-          </ProjectTextWrap>
-          <LogoWrap>
-            <LogoPic
+              Copper Creek Photography
+            </ProjectTextSecond>
+          </ProjectTextWrapSecond>
+          <LogoWrapSecond>
+            <LogoPicSecond
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
-              src={SantaLogo}
-              alt="SantaSlayzz Logo"
-            ></LogoPic>
-          </LogoWrap>
-          <HomeScreenshotWrap
+              src={CopperLogo}
+              alt="CopperCreek Logo"
+            ></LogoPicSecond>
+          </LogoWrapSecond>
+          <HomeScreenshotWrapSecond
 
           /*animate={animation}*/
 
           // whileHover={{ scale: 1.1 }}
           >
-            <HomeScreenshot
+            <HomeScreenshotSecond
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
               src={SantaScreenshot}
-              alt="SantaSlayzz Homepage"
-            ></HomeScreenshot>
-          </HomeScreenshotWrap>
-          <SecondScreenshotWrap>
-            <SecondScreenshot
+              alt="CopperCreek Homepage"
+            ></HomeScreenshotSecond>
+          </HomeScreenshotWrapSecond>
+          <SecondScreenshotWrapSecond>
+            <SecondScreenshotSecond
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
               src={SantaMobile}
-              alt="SantaSlayzz Mobile"
-            ></SecondScreenshot>
-          </SecondScreenshotWrap>
-          <SkillTagWrap>
-            <SkillTag
+              alt="CopperCreek Mobile"
+            ></SecondScreenshotSecond>
+          </SecondScreenshotWrapSecond>
+          <SkillTagWrapSecond>
+            <SkillTagSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>Html</SkillTagText>
-            </SkillTag>
+              <SkillTagTextSecond>Html</SkillTagTextSecond>
+            </SkillTagSecond>
 
-            <SkillTag
+            <SkillTagSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>CSS</SkillTagText>
-            </SkillTag>
+              <SkillTagTextSecond>CSS</SkillTagTextSecond>
+            </SkillTagSecond>
 
-            <SkillTag
+            <SkillTagSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.9, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>React</SkillTagText>
-            </SkillTag>
+              <SkillTagTextSecond>React</SkillTagTextSecond>
+            </SkillTagSecond>
 
-            <SkillTag
+            <SkillTagSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 2.1, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>Spring</SkillTagText>
-            </SkillTag>
+              <SkillTagTextSecond>Spring</SkillTagTextSecond>
+            </SkillTagSecond>
 
-            <SkillTag
+            <SkillTagSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 2.3, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>Java</SkillTagText>
-            </SkillTag>
+              <SkillTagTextSecond>Java</SkillTagTextSecond>
+            </SkillTagSecond>
 
-            <SkillTag
+            <SkillTagSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 2.5, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>PostgreSQL</SkillTagText>
-            </SkillTag>
-          </SkillTagWrap>
-          <WebsiteLinkWrap>
-            <WebsiteLink
+              <SkillTagTextSecond>PostgreSQL</SkillTagTextSecond>
+            </SkillTagSecond>
+          </SkillTagWrapSecond>
+          <WebsiteLinkWrapSecond>
+            <WebsiteLinkSecond
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0.8 }}
-            ></WebsiteLink>
-          </WebsiteLinkWrap>
-        </HomeProjectContainer2>
-      </HomeWrapper>
-      <HomeWrapper>
-        <HomeProjectContainer3>
-          <ProjectTextWrap>
-            <ProjectText
+            ></WebsiteLinkSecond>
+          </WebsiteLinkWrapSecond>
+        </HomeProjectContainer2Second>
+      </HomeWrapperSecond>
+      <HomeWrapperThird>
+        <HomeProjectContainer3Third>
+          <ProjectTextWrapThird>
+            <ProjectTextThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              Santa Slayzz
-            </ProjectText>
-          </ProjectTextWrap>
-          <LogoWrap>
-            <LogoPic
+              NFTYbot
+            </ProjectTextThird>
+          </ProjectTextWrapThird>
+          <LogoWrapThird>
+            <LogoPicThird
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
               src={SantaLogo}
-              alt="SantaSlayzz Logo"
-            ></LogoPic>
-          </LogoWrap>
-          <HomeScreenshotWrap
+              alt="NFTYbot Logo"
+            ></LogoPicThird>
+          </LogoWrapThird>
+          <HomeScreenshotWrapThird
 
           /*animate={animation}*/
 
           // whileHover={{ scale: 1.1 }}
           >
-            <HomeScreenshot
+            <HomeScreenshotThird
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
-              src={SantaScreenshot}
-              alt="SantaSlayzz Homepage"
-            ></HomeScreenshot>
-          </HomeScreenshotWrap>
-          <SecondScreenshotWrap>
-            <SecondScreenshot
+              src={NFTScreen}
+              alt="NFTYbot Homepage"
+            ></HomeScreenshotThird>
+          </HomeScreenshotWrapThird>
+          <SecondScreenshotWrapThird>
+            <SecondScreenshotThird
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
               src={SantaMobile}
-              alt="SantaSlayzz Mobile"
-            ></SecondScreenshot>
-          </SecondScreenshotWrap>
-          <SkillTagWrap>
-            <SkillTag
+              alt="NFTYbot Mobile"
+            ></SecondScreenshotThird>
+          </SecondScreenshotWrapThird>
+          <SkillTagWrapThird>
+            <SkillTagThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>Html</SkillTagText>
-            </SkillTag>
+              <SkillTagTextThird>Html</SkillTagTextThird>
+            </SkillTagThird>
 
-            <SkillTag
+            <SkillTagThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>CSS</SkillTagText>
-            </SkillTag>
+              <SkillTagTextThird>CSS</SkillTagTextThird>
+            </SkillTagThird>
 
-            <SkillTag
+            <SkillTagThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.9, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>React</SkillTagText>
-            </SkillTag>
+              <SkillTagTextThird>React</SkillTagTextThird>
+            </SkillTagThird>
 
-            <SkillTag
+            <SkillTagThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 2.1, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>Spring</SkillTagText>
-            </SkillTag>
+              <SkillTagTextThird>Spring</SkillTagTextThird>
+            </SkillTagThird>
 
-            <SkillTag
+            <SkillTagThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 2.3, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>Java</SkillTagText>
-            </SkillTag>
+              <SkillTagTextThird>Java</SkillTagTextThird>
+            </SkillTagThird>
 
-            <SkillTag
+            <SkillTagThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 2.5, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>PostgreSQL</SkillTagText>
-            </SkillTag>
-          </SkillTagWrap>
-          <WebsiteLinkWrap>
-            <WebsiteLink
+              <SkillTagTextThird>PostgreSQL</SkillTagTextThird>
+            </SkillTagThird>
+          </SkillTagWrapThird>
+          <WebsiteLinkWrapThird>
+            <WebsiteLinkThird
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0.8 }}
-            ></WebsiteLink>
-          </WebsiteLinkWrap>
-        </HomeProjectContainer3>
-      </HomeWrapper>
+            ></WebsiteLinkThird>
+          </WebsiteLinkWrapThird>
+        </HomeProjectContainer3Third>
+      </HomeWrapperThird>
+      <HomeWrapperFinal>
+        <HomeProjectContainer3Final>
+          <HomeProjectFinalTextHeaderContainer>
+            <HomeFinalTextHeaderWrapper>
+              <HomeFinalTextHeader>Other Projects</HomeFinalTextHeader>
+            </HomeFinalTextHeaderWrapper>
+          </HomeProjectFinalTextHeaderContainer>
+          <FinalTextContainer>
+            <HomeFinalBoldTextWrapper>
+              <HomeFinalBoldText>Sustainability App</HomeFinalBoldText>
+            </HomeFinalBoldTextWrapper>
+            <HomeFinalTextWrapper>
+              <HomeFinalText>lorem ipsum ojasdlk;jasdjkasdjll;as</HomeFinalText>
+            </HomeFinalTextWrapper>
+          </FinalTextContainer>
+          <FinalTextContainer>
+            <HomeFinalBoldTextWrapper>
+              <HomeFinalBoldText>Sustainability App</HomeFinalBoldText>
+            </HomeFinalBoldTextWrapper>
+            <HomeFinalTextWrapper>
+              <HomeFinalText>lorem ipsum ojasdlk;jasdjkasdjll;as</HomeFinalText>
+            </HomeFinalTextWrapper>
+          </FinalTextContainer> 
+        </HomeProjectContainer3Final>
+      </HomeWrapperFinal>
       <FooterContainer />
     </HomeContainer>
 
