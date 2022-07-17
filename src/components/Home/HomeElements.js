@@ -22,7 +22,7 @@ export const HomeContainer = styled.div`
   padding-right: 15px;
   padding-top: 15px;
 
-  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  background-image: linear-gradient(to right, #f76149, #a52bd9, #4c0b8c);
 
 `;
 
@@ -44,7 +44,7 @@ export const HomeWrapper = styled.div`
 
 export const HomeTextContainer = styled.div`
   border: 2px dotted black;
-  padding-bottom: 60vh;
+  padding-bottom: 20vh;
 `;
 
 export const HomeTextWrapper = styled.div``;
@@ -52,13 +52,21 @@ export const HomeTextWrapper = styled.div``;
 export const HomeLgText = styled.h1`
   margin-top: 10px;
   border: 2px solid yellow;
-  color: #a33428;
+  color: #0d0640;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+
 `;
 
 export const HomeSmText = styled.p`
   border: 2px solid green;
   padding-top: 2vh;
   color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  max-width: 640px;
+  text-align: center;
 `;
 
 export const HomeSmTextLight = styled.p`
@@ -82,7 +90,7 @@ export const HomeProjectContainer = styled.div`
   padding-right: 15px;
 
   /* background-image: linear-gradient(#5CDB95, #77d6a2) */
-  background-color: #1a1a1a;
+  background-color: #0d0640;
   border-radius: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -180,7 +188,12 @@ export const ProjectTextWrap = styled.div`
 
 
 
-export const ProjectText = styled(motion.h2)``;
+export const ProjectText = styled(motion.h2)`
+  font-family: 'IBM Plex Mono', monospace;
+  color: #f76149;
+  font-size: 38px;
+
+`;
 
 export const LogoWrap = styled(motion.div)`
   border: 2px dotted blue;
@@ -259,12 +272,13 @@ export const SkillTagWrap = styled.div`
 `;
 
 export const SkillTag = styled(motion.div)`
-  border: 2px dotted green;
-  width: 80px;
-  height: 30px;
+  // border: 2px dotted green;
+  width: 120px;
+  height: 40px;
   margin: 5px;
-
+  background-color: #ffac69;
   position: relative;
+  border-radius: 13px;
 `;
 
 export const SkillTagText = styled.h5`
@@ -272,6 +286,7 @@ export const SkillTagText = styled.h5`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'IBM Plex Mono', monospace;
 `;
 
 export const WebsiteLinkWrap = styled.div`
@@ -291,6 +306,12 @@ export const WebsiteLinkWrap = styled.div`
   }
 `;
 
+export const WebsiteDescText = styled(motion.p) `
+  font-family: 'IBM Plex Mono', monospace;
+  color: #ffac69;
+  font-weight: 300;
+`;
+
 export const WebsiteLink = styled(motion.div)`
   width: 180px;
   background-color:grey;
@@ -306,7 +327,7 @@ export const Gap = styled.div`
 export const FooterContainer = styled.div`
   width: 100vw;
   height: 175px;
-  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+  background-image: linear-gradient(to right, #f76149, #a52bd9, #4c0b8c);
   border-radius: 10px;
 
   @media screen and (max-width: 500px) {

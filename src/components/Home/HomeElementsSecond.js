@@ -25,7 +25,7 @@ export const HomeProjectContainer2Second = styled.div`
   min-height: 650px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #1a1a1a;
+  background-color: #0d0640;
 
   @media screen and (max-width: 1000px) {
     width: 100vw;
@@ -59,7 +59,9 @@ export const ProjectTextWrapSecond = styled.div`
 
 
 
-export const ProjectTextSecond = styled(motion.h2)``;
+export const ProjectTextSecond = styled(motion.h2)`
+  font-family: 'IBM Plex Mono', monospace;
+`;
 
 export const LogoWrapSecond = styled(motion.div)`
   border: 2px dotted blue;

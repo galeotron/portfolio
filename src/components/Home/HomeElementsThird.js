@@ -24,7 +24,7 @@ export const HomeProjectContainer3Third = styled.div`
   min-height: 650px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #1a1a1a;
+  background-color: #0d0640;
 
 
   @media screen and (max-width: 1000px) {
@@ -59,7 +59,9 @@ export const ProjectTextWrapThird = styled.div`
 
 
 
-export const ProjectTextThird = styled(motion.h2)``;
+export const ProjectTextThird = styled(motion.h2)`
+font-family: 'IBM Plex Mono', monospace;
+`;
 
 export const LogoWrapThird = styled(motion.div)`
   border: 2px dotted blue;

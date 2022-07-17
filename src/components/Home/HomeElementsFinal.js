@@ -21,7 +21,7 @@ export const HomeProjectContainer3Final = styled.div`
   grid-gap: 30px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #1a1a1a;
+  background-color: #0d0640;
 
 
   @media screen and (max-width: 1000px) {
@@ -49,7 +49,9 @@ export const HomeFinalTextHeaderWrapper = styled.div`
 `;
 
 export const HomeFinalTextHeader = styled.h2`
-
+font-family: 'IBM Plex Mono', monospace;  
+color: #f76149;
+font-size: 38px;
 `;
 
 export const HomeFinalTextWrapper = styled.div`
@@ -61,11 +63,14 @@ export const HomeFinalBoldTextWrapper = styled.div`
 `;
 
 export const HomeFinalBoldText = styled.h3`
-
+font-family: 'IBM Plex Mono', monospace; 
+color: #ffac69;
 `;
 
 export const HomeFinalText = styled.p`
-
+font-family: 'IBM Plex Mono', monospace; 
+color: #ffac69;
+font-weight: 300;
 `;
 
 export const FinalTextContainer = styled.div`

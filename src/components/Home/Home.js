@@ -4,7 +4,7 @@ import SantaScreenshot from "../../images/SantaHomepageSquare.png";
 import SantaLogo from "../../images/SantaLogo.PNG";
 import SantaMobile from "../../images/SantaMobile.png";
 import CopperLogo from "../../images/CopperLogo.png";
-import NFTScreen from "../../images/NFTscreen.png"
+import NFTScreen from "../../images/NFTscreen.png";
 // import stars from "../../images/stars.jpg";
 import {
   Gap,
@@ -12,7 +12,6 @@ import {
   HomeContainer,
   HomeLgText,
   HomeProjectContainer,
-
   HomeScreenshot,
   HomeScreenshotWrap,
   HomeSmText,
@@ -32,15 +31,13 @@ import {
   SkillTag,
   WebsiteLink,
   FooterContainer,
+  WebsiteDescText,
 } from "./HomeElements";
 
 import {
-
   HomeProjectContainer2Second,
-
   HomeScreenshotSecond,
   HomeScreenshotWrapSecond,
-
   HomeWrapperSecond,
   LogoPicSecond,
   LogoWrapSecond,
@@ -50,20 +47,15 @@ import {
   SecondScreenshotWrapSecond,
   SkillTagTextSecond,
   SkillTagWrapSecond,
-
   WebsiteLinkWrapSecond,
   SkillTagSecond,
   WebsiteLinkSecond,
-
 } from "./HomeElementsSecond";
 
 import {
-
-
   HomeProjectContainer3Third,
   HomeScreenshotThird,
   HomeScreenshotWrapThird,
-
   HomeWrapperThird,
   LogoPicThird,
   LogoWrapThird,
@@ -77,7 +69,6 @@ import {
   WebsiteLinkWrapThird,
   SkillTagThird,
   WebsiteLinkThird,
-
 } from "./HomeElementsThird";
 
 import {
@@ -90,7 +81,7 @@ import {
   HomeFinalBoldTextWrapper,
   HomeFinalBoldText,
   HomeFinalText,
-  FinalTextContainer
+  FinalTextContainer,
 } from "./HomeElementsFinal";
 
 const Home = () => {
@@ -103,7 +94,25 @@ const Home = () => {
             <HomeLgText>Hi I'm Peter</HomeLgText>
           </HomeTextWrapper>
           <HomeTextWrapper>
-            <HomeSmText>I am an engineer blah blah</HomeSmText>
+            <HomeSmText>
+              I started my career as an environmental engineer working with
+              companies like Apex and Trihydro.
+              <br />
+              <br />
+              But, honestly, I never felt passionate about the work. In theory,
+              it seemed great. In practice, you often worked for companies that
+              were doing some questionable things to the earth. <br />
+              <br />
+              And I wanted my work to mean something. <br />
+              <br />
+              Every day we see incredible innovation from software companies,
+              and I wanted to be a part of that. <br />
+              <br />
+              So, I started small and taught myself how to code simple HTML
+              websites — all the way up to full-stack projects. <br />
+              <br />
+              Below are some of my favorite projects.{" "}
+            </HomeSmText>
           </HomeTextWrapper>
         </HomeTextContainer>
       </HomeWrapper>
@@ -217,12 +226,23 @@ const Home = () => {
             </SkillTag>
           </SkillTagWrap>
           <WebsiteLinkWrap>
-            <WebsiteLink
+            <WebsiteDescText
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0.8 }}
-            ></WebsiteLink>
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
+              ultrices neque ornare aenean. In massa tempor nec feugiat. Feugiat
+              nisl pretium fusce id. Sit amet dictum sit amet justo donec enim
+              diam vulputate. Consectetur adipiscing elit ut aliquam purus sit
+              amet luctus. Pretium aenean pharetra magna ac placerat vestibulum.
+              Potenti nullam ac tortor vitae purus faucibus ornare suspendisse.
+              Consectetur adipiscing elit ut aliquam purus. Neque vitae tempus
+              quam pellentesque nec nam. Aliquet enim tortor at auctor urna
+              nunc.
+            </WebsiteDescText>
           </WebsiteLinkWrap>
         </HomeProjectContainer>
       </HomeWrapper>
@@ -478,7 +498,7 @@ const Home = () => {
             <HomeFinalTextWrapper>
               <HomeFinalText>lorem ipsum ojasdlk;jasdjkasdjll;as</HomeFinalText>
             </HomeFinalTextWrapper>
-          </FinalTextContainer> 
+          </FinalTextContainer>
         </HomeProjectContainer3Final>
       </HomeWrapperFinal>
       <FooterContainer />
