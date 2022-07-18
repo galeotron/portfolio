@@ -5,6 +5,8 @@ import SantaLogo from "../../images/SantaLogo.PNG";
 import SantaMobile from "../../images/SantaMobile.png";
 import CopperLogo from "../../images/CopperLogo.png";
 import NFTScreen from "../../images/NFTscreen.png";
+import CopperHome from "../../images/CopperHome.png"
+import CopperPortfolio from "../../images/CopperPortfolio.png"
 // import stars from "../../images/stars.jpg";
 import {
   Gap,
@@ -281,7 +283,7 @@ const Home = () => {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
-              src={SantaScreenshot}
+              src={CopperHome}
               alt="CopperCreek Homepage"
             ></HomeScreenshotSecond>
           </HomeScreenshotWrapSecond>
@@ -292,7 +294,7 @@ const Home = () => {
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
-              src={SantaMobile}
+              src={CopperPortfolio}
               alt="CopperCreek Mobile"
             ></SecondScreenshotSecond>
           </SecondScreenshotWrapSecond>
@@ -352,12 +354,24 @@ const Home = () => {
             </SkillTagSecond>
           </SkillTagWrapSecond>
           <WebsiteLinkWrapSecond>
-            <WebsiteLinkSecond
+            <WebsiteDescText
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0.8 }}
-            ></WebsiteLinkSecond>
+            >
+              {" "}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
+              ultrices neque ornare aenean. In massa tempor nec feugiat. Feugiat
+              nisl pretium fusce id. Sit amet dictum sit amet justo donec enim
+              diam vulputate. Consectetur adipiscing elit ut aliquam purus sit
+              amet luctus. Pretium aenean pharetra magna ac placerat vestibulum.
+              Potenti nullam ac tortor vitae purus faucibus ornare suspendisse.
+              Consectetur adipiscing elit ut aliquam purus. Neque vitae tempus
+              quam pellentesque nec nam. Aliquet enim tortor at auctor urna
+              nunc.
+            </WebsiteDescText>
           </WebsiteLinkWrapSecond>
         </HomeProjectContainer2Second>
       </HomeWrapperSecond>
@@ -373,7 +387,7 @@ const Home = () => {
               NFTYbot
             </ProjectTextThird>
           </ProjectTextWrapThird>
-          <LogoWrapThird>
+          {/* <LogoWrapThird>
             <LogoPicThird
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
@@ -383,7 +397,7 @@ const Home = () => {
               src={SantaLogo}
               alt="NFTYbot Logo"
             ></LogoPicThird>
-          </LogoWrapThird>
+          </LogoWrapThird> */}
           <HomeScreenshotWrapThird
 
           /*animate={animation}*/
@@ -400,7 +414,7 @@ const Home = () => {
               alt="NFTYbot Homepage"
             ></HomeScreenshotThird>
           </HomeScreenshotWrapThird>
-          <SecondScreenshotWrapThird>
+          {/* <SecondScreenshotWrapThird>
             <SecondScreenshotThird
               whileHover={{ scale: 1.2 }}
               initial={{ y: 300, opacity: 0 }}
@@ -410,7 +424,7 @@ const Home = () => {
               src={SantaMobile}
               alt="NFTYbot Mobile"
             ></SecondScreenshotThird>
-          </SecondScreenshotWrapThird>
+          </SecondScreenshotWrapThird> */}
           <SkillTagWrapThird>
             <SkillTagThird
               initial={{ y: 300, opacity: 0 }}
@@ -467,12 +481,24 @@ const Home = () => {
             </SkillTagThird>
           </SkillTagWrapThird>
           <WebsiteLinkWrapThird>
-            <WebsiteLinkThird
+            <WebsiteDescText
               initial={{ y: 300, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0.8 }}
-            ></WebsiteLinkThird>
+            >
+              {" "}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
+              ultrices neque ornare aenean. In massa tempor nec feugiat. Feugiat
+              nisl pretium fusce id. Sit amet dictum sit amet justo donec enim
+              diam vulputate. Consectetur adipiscing elit ut aliquam purus sit
+              amet luctus. Pretium aenean pharetra magna ac placerat vestibulum.
+              Potenti nullam ac tortor vitae purus faucibus ornare suspendisse.
+              Consectetur adipiscing elit ut aliquam purus. Neque vitae tempus
+              quam pellentesque nec nam. Aliquet enim tortor at auctor urna
+              nunc.
+            </WebsiteDescText>
           </WebsiteLinkWrapThird>
         </HomeProjectContainer3Third>
       </HomeWrapperThird>

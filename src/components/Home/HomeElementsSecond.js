@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 
 
 export const HomeWrapperSecond = styled.div`
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 15px;
 
 `;
 
 
 export const HomeProjectContainer2Second = styled.div`
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding-top: 1vh;
   padding-bottom: 10vh;
   border-radius: 10px;
@@ -40,7 +40,7 @@ export const HomeProjectContainer2Second = styled.div`
 `;
 
 export const ProjectTextWrapSecond = styled.div`
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 3;
@@ -61,10 +61,13 @@ export const ProjectTextWrapSecond = styled.div`
 
 export const ProjectTextSecond = styled(motion.h2)`
   font-family: 'IBM Plex Mono', monospace;
+  color: #f76149;
+  font-size: 38px;
+
 `;
 
 export const LogoWrapSecond = styled(motion.div)`
-  border: 2px dotted blue;
+  /* border: 2px dotted blue; */
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 1;
@@ -81,7 +84,7 @@ export const LogoPicSecond = styled(motion.img)`
 `;
 
 export const HomeScreenshotWrapSecond = styled(motion.div)`
-  border: 2px dotted yellow;
+  /* border: 2px dotted yellow; */
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column-start: 3;
@@ -101,11 +104,12 @@ export const HomeScreenshotSecond = styled(motion.img)`
 `;
 
 export const SecondScreenshotWrapSecond = styled(motion.div)`
-  border: 2px dotted green;
+  /* border: 2px dotted green; */
   grid-row-start: 4;
   grid-row-end: 6;
   grid-column-start: 1;
   grid-column-end: 3;
+  max-height: 350px;
 
   /* max-width: 320px;
   height: auto;
@@ -126,7 +130,7 @@ export const SecondScreenshotSecond = styled(motion.img)`
 `;
 
 export const SkillTagWrapSecond = styled.div`
-  border: 2px dotted black;
+  /* border: 2px dotted black; */
   grid-row-start: 4;
   grid-row-end: 6;
   grid-column-start: 3;
@@ -140,9 +144,13 @@ export const SkillTagWrapSecond = styled.div`
 `;
 
 export const SkillTagSecond = styled(motion.div)`
-  border: 2px dotted green;
-  width: 80px;
-  height: 30px;
+
+  width: 120px;
+  height: 40px;
+  margin: 5px;
+  background-color: #ffac69;
+  position: relative;
+  border-radius: 13px;
   margin: 5px;
 
   position: relative;
@@ -153,10 +161,11 @@ export const SkillTagTextSecond = styled.h5`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'IBM Plex Mono', monospace;
 `;
 
 export const WebsiteLinkWrapSecond = styled.div`
-  border: 2px dotted purple;
+  /* border: 2px dotted purple; */
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 2;

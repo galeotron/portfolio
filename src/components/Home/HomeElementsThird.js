@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 
 export const HomeWrapperThird = styled.div`
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 15px;
 
 `;
 
 export const HomeProjectContainer3Third = styled.div`
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding-top: 1vh;
   padding-bottom: 10vh;
   border-radius: 10px;
@@ -40,11 +40,12 @@ export const HomeProjectContainer3Third = styled.div`
 `;
 
 export const ProjectTextWrapThird = styled.div`
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 3;
   grid-column-end: 5;
+  margin-right: 20px;
 
   /* align-self: end;
   justify-self: end; */
@@ -54,17 +55,20 @@ export const ProjectTextWrapThird = styled.div`
   @media screen and (max-width: 500px) {
     transform: translate(0px, 0px);
     align-self: center;
+    margin-right: 0px;
   }
 `;
 
 
 
 export const ProjectTextThird = styled(motion.h2)`
-font-family: 'IBM Plex Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #f76149;
+  font-size: 38px;
 `;
 
 export const LogoWrapThird = styled(motion.div)`
-  border: 2px dotted blue;
+  /* border: 2px dotted blue; */
   grid-row-start: 4;
   grid-row-end: 6;
   grid-column-start: 3;
@@ -81,7 +85,7 @@ export const LogoPicThird = styled(motion.img)`
 `;
 
 export const HomeScreenshotWrapThird = styled(motion.div)`
-  border: 2px dotted yellow;
+  /* border: 2px dotted yellow; */
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 2;
@@ -101,7 +105,7 @@ export const HomeScreenshotThird = styled(motion.img)`
 `;
 
 export const SecondScreenshotWrapThird = styled(motion.div)`
-  border: 2px dotted green;
+  /* border: 2px dotted green; */
   grid-row-start: 3;
   grid-row-end: 5;
   grid-column-start: 1;
@@ -126,7 +130,7 @@ export const SecondScreenshotThird = styled(motion.img)`
 `;
 
 export const SkillTagWrapThird = styled.div`
-  border: 2px dotted black;
+  /* border: 2px dotted black; */
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 1;
@@ -140,9 +144,12 @@ export const SkillTagWrapThird = styled.div`
 `;
 
 export const SkillTagThird = styled(motion.div)`
-  border: 2px dotted green;
-  width: 80px;
-  height: 30px;
+  width: 120px;
+  height: 40px;
+  margin: 5px;
+  background-color: #ffac69;
+  position: relative;
+  border-radius: 13px;
   margin: 5px;
 
 
@@ -154,11 +161,12 @@ export const SkillTagTextThird = styled.h5`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'IBM Plex Mono', monospace;
 `;
 
 export const WebsiteLinkWrapThird = styled.div`
-  border: 2px dotted purple;
-  grid-row-start: 5;
+  /* border: 2px dotted purple; */
+  grid-row-start: 3;
   grid-row-end: 6;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -177,5 +185,5 @@ export const WebsiteLinkThird = styled(motion.div)`
   width: 180px;
   background-color:grey;
   height: 50px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 `;

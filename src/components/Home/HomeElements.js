@@ -9,7 +9,7 @@ export const VideoWrapper = styled.div`
 export const BgVideoStyle = styled.video``;
 
 export const HomeContainer = styled.div`
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -37,31 +37,43 @@ export const BgImage = styled.img`
 `;
 
 export const HomeWrapper = styled.div`
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 15px;
 
 `;
 
 export const HomeTextContainer = styled.div`
-  border: 2px dotted black;
+  /* border: 2px dotted black; */
   padding-bottom: 20vh;
+
+  @media screen and (max-width: 500px) {
+    padding-bottom: 10vh;
+  }
+
 `;
 
-export const HomeTextWrapper = styled.div``;
+export const HomeTextWrapper = styled.div`
+  /* display: flex;
+  align-items: center;
+  border: 2px solid white;
+  justify-content: center; */
+
+`;
 
 export const HomeLgText = styled.h1`
   margin-top: 10px;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   color: #0d0640;
   font-family: 'Bungee Shade', cursive;
   font-size: 50px;
   display: flex;
   justify-content: center;
+  text-align: center;
 
 `;
 
 export const HomeSmText = styled.p`
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding-top: 2vh;
   color: white;
   font-family: 'IBM Plex Mono', monospace;
@@ -74,7 +86,7 @@ export const HomeSmTextLight = styled.p`
 `;
 
 export const HomeProjectContainer = styled.div`
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding-top: 1vh;
   padding-bottom: 10vh;
   /* margin-top: 20px; */
@@ -109,7 +121,7 @@ export const HomeProjectContainer = styled.div`
   }
 `;
 export const HomeProjectContainer2 = styled.div`
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding-top: 1vh;
   padding-bottom: 10vh;
   border-radius: 10px;
@@ -138,7 +150,7 @@ export const HomeProjectContainer2 = styled.div`
   }
 `;
 export const HomeProjectContainer3 = styled.div`
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding-top: 1vh;
   padding-bottom: 10vh;
   border-radius: 10px;
@@ -169,7 +181,7 @@ export const HomeProjectContainer3 = styled.div`
 `;
 
 export const ProjectTextWrap = styled.div`
-  border: 2px dotted red;
+  /* border: 2px dotted red; */
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 1;
@@ -196,7 +208,7 @@ export const ProjectText = styled(motion.h2)`
 `;
 
 export const LogoWrap = styled(motion.div)`
-  border: 2px dotted blue;
+  /* border: 2px dotted blue; */
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column-start: 1;
@@ -213,7 +225,7 @@ export const LogoPic = styled(motion.img)`
 `;
 
 export const HomeScreenshotWrap = styled(motion.div)`
-  border: 2px dotted yellow;
+  /* border: 2px dotted yellow; */
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-start: 3;
@@ -233,7 +245,7 @@ export const HomeScreenshot = styled(motion.img)`
 `;
 
 export const SecondScreenshotWrap = styled(motion.div)`
-  border: 2px dotted green;
+  /* border: 2px dotted green; */
   grid-row-start: 3;
   grid-row-end: 6;
   grid-column-start: 3;
@@ -258,7 +270,7 @@ export const SecondScreenshot = styled(motion.img)`
 `;
 
 export const SkillTagWrap = styled.div`
-  border: 2px dotted black;
+  /* border: 2px dotted black; */
   grid-row-start: 4;
   grid-row-end: 5;
   grid-column-start: 1;
@@ -290,7 +302,7 @@ export const SkillTagText = styled.h5`
 `;
 
 export const WebsiteLinkWrap = styled.div`
-  border: 2px dotted purple;
+  /* border: 2px dotted purple; */
   grid-row-start: 5;
   grid-row-end: 6;
   grid-column-start: 1;
@@ -320,7 +332,7 @@ export const WebsiteLink = styled(motion.div)`
 `;
 
 export const Gap = styled.div`
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   height: 40px;
 `;
 

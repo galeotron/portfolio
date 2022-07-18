@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 
 export const HomeWrapperFinal = styled.div`
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   margin: 15px;
 
 `;
 
 export const HomeProjectContainer3Final = styled.div`
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   padding-top: 1vh;
   padding-bottom: 10vh;
   border-radius: 10px;
