@@ -31,7 +31,6 @@ import {
   /*VideoWrapper,*/
   WebsiteLinkWrap,
   SkillTag,
-  WebsiteLink,
   FooterContainer,
   WebsiteDescText,
 } from "./HomeElements";
@@ -51,7 +50,6 @@ import {
   SkillTagWrapSecond,
   WebsiteLinkWrapSecond,
   SkillTagSecond,
-  WebsiteLinkSecond,
 } from "./HomeElementsSecond";
 
 import {
@@ -59,18 +57,13 @@ import {
   HomeScreenshotThird,
   HomeScreenshotWrapThird,
   HomeWrapperThird,
-  LogoPicThird,
-  LogoWrapThird,
   ProjectTextThird,
   ProjectTextWrapThird,
-  SecondScreenshotThird,
-  SecondScreenshotWrapThird,
   SkillTagTextThird,
   SkillTagWrapThird,
   /*VideoWrapper,*/
   WebsiteLinkWrapThird,
   SkillTagThird,
-  WebsiteLinkThird,
 } from "./HomeElementsThird";
 
 import {
