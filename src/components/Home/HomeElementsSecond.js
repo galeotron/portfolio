@@ -105,8 +105,8 @@ export const HomeScreenshotSecond = styled(motion.img)`
 
 export const SecondScreenshotWrapSecond = styled(motion.div)`
   /* border: 2px dotted green; */
-  grid-row-start: 4;
-  grid-row-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
   grid-column-start: 1;
   grid-column-end: 3;
   max-height: 350px;
@@ -166,9 +166,9 @@ export const SkillTagTextSecond = styled.h5`
 
 export const WebsiteLinkWrapSecond = styled.div`
   /* border: 2px dotted purple; */
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
   grid-column-end: 3;
   display: flex;
   align-items: center;

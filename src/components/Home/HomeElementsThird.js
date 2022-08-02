@@ -15,7 +15,7 @@ export const HomeProjectContainer3Third = styled.div`
   border-radius: 10px;
   /* margin-top: 20px; */
   /* margin-bottom: 20px; */
-  height: 100vh;
+  height: 80vh;
   width: 1000px;
   display: grid;
   grid-template-columns: repeat(4 1fr);
