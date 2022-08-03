@@ -5,8 +5,9 @@ import SantaLogo from "../../images/SantaLogo.PNG";
 import SantaMobile from "../../images/SantaMobile.png";
 import CopperLogo from "../../images/CopperLogo.png";
 import NFTScreen from "../../images/NFTscreen.png";
-import CopperHome from "../../images/CopperHome.png"
-import CopperPortfolio from "../../images/CopperPortfolio.png"
+import CopperHome from "../../images/CopperHome.png";
+import CopperPortfolio from "../../images/CopperPortfolio.png";
+import {FaGithub} from 'react-icons/fa';
 // import stars from "../../images/stars.jpg";
 import {
   Gap,
@@ -33,6 +34,7 @@ import {
   SkillTag,
   FooterContainer,
   WebsiteDescText,
+  FooterGitWrapper,
 } from "./HomeElements";
 
 import {
@@ -90,7 +92,8 @@ const Home = () => {
           </HomeTextWrapper>
           <HomeTextWrapper>
             <HomeSmText>
-              I started my career as an environmental engineer working in environmental consulting.
+              I started my career as an environmental engineer working in
+              environmental consulting.
               <br />
               <br />
               But, honestly, I never felt passionate about the work. In theory,
@@ -102,8 +105,6 @@ const Home = () => {
               Every day we see incredible innovation from software companies,
               and I wanted to be a part of that. <br />
               <br />
-
-
               <br />
               Below are some of my favorite projects.{" "}
             </HomeSmText>
@@ -234,12 +235,14 @@ const Home = () => {
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0.8 }}
             >
-              This project really pushed my limits in a multitude of ways.
-              I designed the architecture and UI for this full stack website.
-              The website was designed for a twitch streamer who wanted to include
-              an e commerce store, branding opportunities, as well as a tournament application.
-              The front end was created with the help of React, while the backend utilizes the Spring framework.
-              It was designed with AWS integration in mind, however it is currently configured for use with a local PostgreSQL database.
+              This project really pushed my limits in a multitude of ways. I
+              designed the architecture and UI for this full stack website. The
+              website was designed for a twitch streamer who wanted to include
+              an e commerce store, branding opportunities, as well as a
+              tournament application. The front end was created with the help of
+              React, while the backend utilizes the Spring framework. It was
+              designed with AWS integration in mind, however it is currently
+              configured for use with a local PostgreSQL database.
             </WebsiteDescText>
           </WebsiteLinkWrap>
         </HomeProjectContainer>
@@ -357,10 +360,13 @@ const Home = () => {
               viewport={{ once: true, amount: 0.8 }}
             >
               {" "}
-              Copper Creek Photography is a website I designed for a photographer located in Gilette, Wyoming
-              It includes a javascript based photo portfolio. The design was created with the branding of the photographer in mind.
-              Although not as flashy as other projects I've completed, I believe it represents a higher level of competency, both in the simplicity
-              of the design, and in the amount of time and research it took to develop.
+              Copper Creek Photography is a website I designed for a
+              photographer located in Gilette, Wyoming It includes a javascript
+              based photo portfolio. The design was created with the branding of
+              the photographer in mind. Although not as flashy as other projects
+              I've completed, I believe it represents a higher level of
+              competency, both in the simplicity of the design, and in the
+              amount of time and research it took to develop.
             </WebsiteDescText>
           </WebsiteLinkWrapSecond>
         </HomeProjectContainer2Second>
@@ -478,9 +484,10 @@ const Home = () => {
               viewport={{ once: true, amount: 0.8 }}
             >
               {" "}
-              NFTY Bot is one of the more exciting projects I was able to work on.
-              NFTY Bot was the first Twitter/Discord bot designed specifically for NFT sales. 
-              I assisted with the architecture and RESTful API design in order to optimize the function of the bots.
+              NFTY Bot is one of the more exciting projects I was able to work
+              on. NFTY Bot was the first Twitter/Discord bot designed
+              specifically for NFT sales. I assisted with the architecture and
+              RESTful API design in order to optimize the function of the bots.
             </WebsiteDescText>
           </WebsiteLinkWrapThird>
         </HomeProjectContainer3Third>
@@ -489,34 +496,81 @@ const Home = () => {
         <HomeProjectContainer3Final>
           <HomeProjectFinalTextHeaderContainer>
             <HomeFinalTextHeaderWrapper>
-              <HomeFinalTextHeader>Other Projects</HomeFinalTextHeader>
+              <HomeFinalTextHeader
+                initial={{ y: 300, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
+                viewport={{ once: true, amount: 0.8 }}
+              >
+                Other Projects
+              </HomeFinalTextHeader>
             </HomeFinalTextHeaderWrapper>
           </HomeProjectFinalTextHeaderContainer>
           <FinalTextContainer>
             <HomeFinalBoldTextWrapper>
-              <HomeFinalBoldText><br/>Sustainability App</HomeFinalBoldText>
+              <HomeFinalBoldText
+                initial={{ y: 300, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
+                viewport={{ once: true, amount: 0.8 }}
+              >
+                <br />
+                Sustainability App
+              </HomeFinalBoldText>
             </HomeFinalBoldTextWrapper>
             <HomeFinalTextWrapper>
-              <HomeFinalText>While working with Trihydro, I was recruited to help tie a third party greenhouse gas emissions calculator with our internal
-                spreadsheets and PowerBI. Using VBA I accomplished this and the package was deployed for use with our client. This project helped improve
-                relations with the client and created an easy to use format to help make sustainability based decisions.<br/>
+              <HomeFinalText
+                initial={{ y: 300, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
+                viewport={{ once: true, amount: 0.8 }}
+              >
+                While working with Trihydro, I was recruited to help tie a third
+                party greenhouse gas emissions calculator with our internal
+                spreadsheets and PowerBI. Using VBA I accomplished this and the
+                package was deployed for use with our client. This project
+                helped improve relations with the client and created an easy to
+                use format to help make sustainability based decisions.
+                <br />
               </HomeFinalText>
             </HomeFinalTextWrapper>
           </FinalTextContainer>
           <FinalTextContainer>
             <HomeFinalBoldTextWrapper>
-              <HomeFinalBoldText><br/>Labor hour sheet workbook</HomeFinalBoldText>
+              <HomeFinalBoldText
+                initial={{ y: 300, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
+                viewport={{ once: true, amount: 0.8 }}
+              >
+                <br />
+                Labor hour sheet workbook
+              </HomeFinalBoldText>
             </HomeFinalBoldTextWrapper>
             <HomeFinalTextWrapper>
-              <HomeFinalText>This was another small project assigned to me while working with Trihydro. Although a small assignment I am proud of the difference
-                I could help make within my team. I designed and implemented a labor hour sheet using VBA in excel. This labor hour workbook is utilized by the team
-                to keep track of all member's schedules. It allows management to better understand and optimize the time put in to each project.
+              <HomeFinalText
+                initial={{ y: 300, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
+                viewport={{ once: true, amount: 0.8 }}
+              >
+                This was another small project assigned to me while working with
+                Trihydro. Although a small assignment I am proud of the
+                difference I could help make within my team. I designed and
+                implemented a labor hour sheet using VBA in excel. This labor
+                hour workbook is utilized by the team to keep track of all
+                member's schedules. It allows management to better understand
+                and optimize the time put in to each project.
               </HomeFinalText>
             </HomeFinalTextWrapper>
           </FinalTextContainer>
         </HomeProjectContainer3Final>
       </HomeWrapperFinal>
-      <FooterContainer />
+      <FooterContainer>
+        <FooterGitWrapper href="https://github.com/galeotron">
+          <FaGithub />
+        </FooterGitWrapper>
+      </FooterContainer>
     </HomeContainer>
 
     // <VideoWrapper>

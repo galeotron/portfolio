@@ -341,9 +341,16 @@ export const FooterContainer = styled.div`
   height: 175px;
   background-image: linear-gradient(to right, #f76149, #a52bd9, #4c0b8c);
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   @media screen and (max-width: 500px) {
     height: 80px;
 
   }
 `
+export const FooterGitWrapper = styled.a`
+  font-size: 64px;
+  color: #0d0640;
+`;

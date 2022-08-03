@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 
 export const HomeWrapperFinal = styled.div`
@@ -47,7 +48,7 @@ export const HomeFinalTextHeaderWrapper = styled.div`
 
 `;
 
-export const HomeFinalTextHeader = styled.h2`
+export const HomeFinalTextHeader = styled(motion.h2)`
 font-family: 'IBM Plex Mono', monospace;  
 color: #f76149;
 font-size: 38px;
@@ -61,12 +62,12 @@ export const HomeFinalBoldTextWrapper = styled.div`
 
 `;
 
-export const HomeFinalBoldText = styled.h3`
+export const HomeFinalBoldText = styled(motion.h3)`
 font-family: 'IBM Plex Mono', monospace; 
 color: #ffac69;
 `;
 
-export const HomeFinalText = styled.p`
+export const HomeFinalText = styled(motion.p)`
 font-family: 'IBM Plex Mono', monospace; 
 color: #ffac69;
 font-weight: 300;
