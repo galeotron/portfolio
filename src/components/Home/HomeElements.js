@@ -97,7 +97,7 @@ export const HomeProjectContainer = styled.div`
   grid-template-columns: repeat(4 1fr);
   grid-template-rows: repeat() (5 1fr);
   grid-gap: 30px;
-  min-height: 650px;
+  min-height: 950px;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -133,7 +133,7 @@ export const HomeProjectContainer2 = styled.div`
   grid-template-columns: repeat(4 1fr);
   grid-template-rows: repeat() (5 1fr);
   grid-gap: 30px;
-  min-height: 650px;
+  min-height: 950px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #1a1a1a;
@@ -162,7 +162,7 @@ export const HomeProjectContainer3 = styled.div`
   grid-template-columns: repeat(4 1fr);
   grid-template-rows: repeat() (5 1fr);
   grid-gap: 30px;
-  min-height: 650px;
+  min-height: 950px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #1a1a1a;
