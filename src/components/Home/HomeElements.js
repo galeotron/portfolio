@@ -148,6 +148,11 @@ export const HomeProjectContainer2 = styled.div`
     display: flex;
     flex-direction: column;
   }
+
+  @media screen and (max-width: 500px) and (max-height: 300px) {
+    height: 1350px;
+  }
+
 `;
 export const HomeProjectContainer3 = styled.div`
   /* border: 2px solid orange; */
