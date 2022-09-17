@@ -31,7 +31,7 @@ export const HomeProjectContainer2Second = styled.div`
     width: 100vw;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     height: auto;
     width: 100vw;
     display: flex;
@@ -51,7 +51,7 @@ export const ProjectTextWrapSecond = styled.div`
 
   transform: translate(0px, 50px); */
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     transform: translate(0px, 0px);
     align-self: center;
   }
@@ -118,7 +118,7 @@ export const SecondScreenshotWrapSecond = styled(motion.div)`
 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     align-self: center;
 
   }
@@ -175,7 +175,7 @@ export const WebsiteLinkWrapSecond = styled.div`
 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     justify-content: center;
 
   }

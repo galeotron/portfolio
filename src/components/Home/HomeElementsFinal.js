@@ -28,7 +28,7 @@ export const HomeProjectContainer3Final = styled.div`
     width: 100vw;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     height: auto;
     width: 100vw;
     display: flex;

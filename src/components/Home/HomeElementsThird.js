@@ -31,7 +31,7 @@ export const HomeProjectContainer3Third = styled.div`
     width: 100vw;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     height: auto;
     width: 100vw;
     display: flex;
@@ -52,7 +52,7 @@ export const ProjectTextWrapThird = styled.div`
 
   /* transform: translate(0px, 50px); */
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     transform: translate(0px, 0px);
     align-self: center;
     margin-right: 0px;
@@ -118,7 +118,7 @@ export const SecondScreenshotWrapThird = styled(motion.div)`
 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     align-self: center;
 
   }
@@ -175,7 +175,7 @@ export const WebsiteLinkWrapThird = styled.div`
 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     justify-content: center;
 
   }

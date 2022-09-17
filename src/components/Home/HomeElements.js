@@ -46,7 +46,7 @@ export const HomeTextContainer = styled.div`
   /* border: 2px dotted black; */
   padding-bottom: 20vh;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     padding-bottom: 10vh;
   }
 
@@ -113,7 +113,7 @@ export const HomeProjectContainer = styled.div`
     width: 100vw;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     height: auto;
     width: 100vw;
     display: flex;
@@ -142,14 +142,14 @@ export const HomeProjectContainer2 = styled.div`
     width: 100vw;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     height: auto;
     width: 100vw;
     display: flex;
     flex-direction: column;
   }
 
-  @media screen and (max-width: 500px) and (max-height: 300px) {
+  @media screen and (max-width: 550px) and (max-height: 300px) {
     height: 1350px;
   }
 
@@ -177,7 +177,7 @@ export const HomeProjectContainer3 = styled.div`
     width: 100vw;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     height: auto;
     width: 100vw;
     display: flex;
@@ -197,7 +197,7 @@ export const ProjectTextWrap = styled.div`
 
   transform: translate(0px, 50px);
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     transform: translate(0px, 0px);
     align-self: center;
   }
@@ -263,7 +263,7 @@ export const SecondScreenshotWrap = styled(motion.div)`
 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     align-self: center;
 
   }
@@ -317,7 +317,7 @@ export const WebsiteLinkWrap = styled.div`
 
 
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     justify-content: center;
 
   }
@@ -350,7 +350,7 @@ export const FooterContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     height: 80px;
 
   }
