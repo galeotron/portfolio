@@ -92,7 +92,7 @@ const Home = () => {
           </HomeTextWrapper>
           <HomeTextWrapper>
             <HomeSmText>
-              I started my career as an environmental engineer working in
+              {/* I started my career as an environmental engineer working in
               environmental consulting.
               <br />
               <br />
@@ -104,7 +104,7 @@ const Home = () => {
               <br />
               Every day we see incredible innovation from software companies,
               and I wanted to be a part of that. <br />
-              <br />
+              <br /> */}
               <br />
               Below are some of my favorite projects.{" "}
             </HomeSmText>
@@ -199,7 +199,7 @@ const Home = () => {
               transition={{ duration: 2.1, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagText>Spring</SkillTagText>
+              <SkillTagText>Spring Boot</SkillTagText>
             </SkillTag>
 
             <SkillTag
@@ -428,7 +428,7 @@ const Home = () => {
               transition={{ duration: 1.7, type: "spring", bounce: 0.3 }}
               viewport={{ once: true, amount: 0 }}
             >
-              <SkillTagTextThird>Spring</SkillTagTextThird>
+              <SkillTagTextThird>Spring Boot</SkillTagTextThird>
             </SkillTagThird>
 
             <SkillTagThird
